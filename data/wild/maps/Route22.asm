@@ -6,7 +6,7 @@ IF DEF(_RED)
 	db  4, RATTATA
 	db  4, NIDORAN_M
 	db  2, RATTATA
-	db  2, NIDORAN_M
+	db  2, NIDORAN_F
 	db  3, SPEAROW
 	db  5, SPEAROW
 	db  3, NIDORAN_F
@@ -17,7 +17,7 @@ IF DEF(_BLUE)
 	db  4, RATTATA
 	db  4, NIDORAN_F
 	db  2, RATTATA
-	db  2, NIDORAN_F
+	db  2, NIDORAN_M
 	db  3, SPEAROW
 	db  5, SPEAROW
 	db  3, NIDORAN_M
@@ -27,3 +27,4 @@ ENDC
 
 	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
+
