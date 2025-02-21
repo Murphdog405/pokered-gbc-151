@@ -18,8 +18,8 @@ IF DEF(_BLUE)
 	db 41, SANDSLASH
 ENDC
 	db 43, DITTO
-	db 25, HITMONLEE
-	db 25, HITMONCHAN
+	db 30, HITMONLEE
+	db 30, HITMONCHAN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
